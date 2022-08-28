@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%- title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <div class="sidebar">
+      <div class="container">
+      <div class="nav-main mb-372">
+        <a href="#"><img class="logo" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week5/logo-ANSWER.svg" alt=""></a>
+      <ul class="nav flex-column mt-5">
+        <li class="nav-item">
+          <a class="nav-link d-flex" href="#">
+            <span class="material-icons me-3">
+            notifications_active
+            </span><p>Dashboard</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex" href="#">
+            <span class="material-icons me-3">question_answer
+              </span>
+          <p>Question</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex" href="#"><span class="material-icons me-3">
+            assignment
+            </span><p>Assignment</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex" href="#">
+            <span class="material-icons me-3">
+              video_library
+              </span>
+        <p>Course</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex" href="#">
+            <span class="material-icons me-3">
+              group
+              </span>
+          <p>Admin</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex" href="#">
+            <span class="material-icons me-3">
+              settings
+              </span>
+          <p>Settings</p></a>
+        </li>
+      </ul> 
+    </div>
+      <div class="contact mt-5">
+        <div class="contact-img me-5">
+        <a href=""><img src="./assets/images/andychen.jpeg" alt="andy-chen-photo"></a>
+      </div>
+      <div class="contact-txt">
+        <h3 class="fs-6">Andy Chen</h3>
+        <p class="g6 fs-sm">andy0401@mail.com</p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+    <%- contents %>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
